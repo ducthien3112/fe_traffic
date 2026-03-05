@@ -1,8 +1,8 @@
 import axios from 'axios'
 
-// Use Railway production URL, fallback to localhost for local dev
+// API URL: Use env variable, or auto-detect based on hostname
 const API_BASE_URL = import.meta.env.VITE_API_URL || 
-  (window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://betraffic-production.up.railway.app')
+  (window.location.hostname === 'localhost' ? 'http://localhost:5000' : 'https://thequizify.com/api')
 
 console.log('[API] Base URL:', API_BASE_URL)
 console.log('[API] Hostname:', window.location.hostname)
