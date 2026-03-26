@@ -146,7 +146,7 @@ const AdminSites = () => {
   }
 
   const getWidgetCode = (site) => {
-    const serverUrl = import.meta.env.VITE_API_URL || 'https://betraffic-production-e127.up.railway.app'
+    const serverUrl = import.meta.env.VITE_API_URL || 'https://betraffic-production-7f89.up.railway.app'
     return `<script src="${serverUrl}/widget.js?siteKey=${site.siteKey}"></script>`
   }
 
