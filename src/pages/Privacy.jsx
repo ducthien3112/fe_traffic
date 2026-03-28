@@ -57,7 +57,7 @@ const Privacy = () => {
       {
         icon: 'email',
         title: '6. Liên hệ về bảo mật',
-        content: `Nếu bạn có câu hỏi hoặc lo ngại về chính sách bảo mật, vui lòng liên hệ:\n\n📧 Email: privacy@iqeqtest.com\n🌐 Website: iqeqtest.com/contact\n\nChúng tôi sẽ phản hồi trong vòng 48 giờ làm việc.`
+        content: `Nếu bạn có câu hỏi hoặc lo ngại về chính sách bảo mật, vui lòng liên hệ:\n\n📧 Email: privacy@nghienhoc.com\n🌐 Website: nghienhoc.com/contact\n\nChúng tôi sẽ phản hồi trong vòng 48 giờ làm việc.`
       }
     ]
   }

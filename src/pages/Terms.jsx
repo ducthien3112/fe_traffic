@@ -32,7 +32,7 @@ const Terms = () => {
       {
         icon: 'check',
         title: '1. Chấp nhận điều khoản',
-        content: `Bằng việc truy cập và sử dụng website IQ & EQ Test, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.`
+        content: `Bằng việc truy cập và sử dụng website Nghiền Học, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này. Nếu bạn không đồng ý với bất kỳ phần nào của các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.`
       },
       {
         icon: 'user',
@@ -42,7 +42,7 @@ const Terms = () => {
       {
         icon: 'shield',
         title: '3. Quyền sở hữu trí tuệ',
-        content: `Tất cả nội dung trên website bao gồm nhưng không giới hạn: văn bản, đồ họa, logo, hình ảnh, câu hỏi trắc nghiệm, thuật toán đánh giá đều thuộc quyền sở hữu của IQ & EQ Test hoặc các đối tác được cấp phép. Bạn không được sao chép, phân phối hoặc sử dụng cho mục đích thương mại mà không có sự đồng ý bằng văn bản.`
+        content: `Tất cả nội dung trên website bao gồm nhưng không giới hạn: văn bản, đồ họa, logo, hình ảnh, câu hỏi trắc nghiệm, thuật toán đánh giá đều thuộc quyền sở hữu của Nghiền Học hoặc các đối tác được cấp phép. Bạn không được sao chép, phân phối hoặc sử dụng cho mục đích thương mại mà không có sự đồng ý bằng văn bản.`
       },
       {
         icon: 'info',
@@ -129,8 +129,8 @@ const Terms = () => {
           className="mt-12 text-center text-slate-400"
         >
           <p>Nếu bạn có câu hỏi về điều khoản sử dụng, vui lòng liên hệ:</p>
-          <a href="mailto:support@iqeqtest.com" className="text-blue-400 hover:text-blue-300 transition-colors">
-            support@iqeqtest.com
+          <a href="mailto:support@nghienhoc.com" className="text-blue-400 hover:text-blue-300 transition-colors">
+            support@nghienhoc.com
           </a>
         </motion.div>
       </div>

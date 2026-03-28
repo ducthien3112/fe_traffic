@@ -85,17 +85,19 @@ const Layout = () => {
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
-              <motion.div
-                whileHover={{ rotate: 360, scale: 1.1 }}
-                transition={{ duration: 0.5 }}
-                className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl 
-                           flex items-center justify-center shadow-lg shadow-blue-500/30"
-              >
-                <FaBrain className="text-2xl text-white" />
-              </motion.div>
-              <span className="text-xl font-bold font-display gradient-text">
-                IQ & EQ Test
-              </span>
+              <motion.img
+                src="/logonghien_hoc.png"
+                alt="Nghiền Học"
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3 }}
+                className="h-12 w-auto"
+              />
+              <div className="flex flex-col">
+                <span className="text-xl font-bold font-display gradient-text leading-tight">
+                  Nghiền Học
+                </span>
+                <span className="text-xs text-slate-400 hidden sm:block">Online Quiz Learning</span>
+              </div>
             </Link>
 
             {/* Nav Links */}
@@ -237,19 +239,20 @@ const Layout = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg 
-                              flex items-center justify-center">
-                <FaBrain className="text-sm text-white" />
-              </div>
+              <img
+                src="/logonghien_hoc.png"
+                alt="Nghiền Học"
+                className="h-8 w-auto"
+              />
               <span className="text-slate-400 text-sm">
-                © 2026 IQ & EQ Test. All rights reserved.
+                © 2026 Nghiền Học. All rights reserved.
               </span>
             </div>
             <div className="flex items-center space-x-6 text-sm text-slate-400">
               <Link to="/blog" className="hover:text-white transition-colors">Blog</Link>
               <Link to="/terms" className="hover:text-white transition-colors">Điều khoản</Link>
               <Link to="/privacy" className="hover:text-white transition-colors">Bảo mật</Link>
-              <a href="mailto:support@iqeqtest.com" className="hover:text-white transition-colors">Liên hệ</a>
+              <a href="mailto:support@nghienhoc.com" className="hover:text-white transition-colors">Liên hệ</a>
             </div>
           </div>
         </div>
