@@ -803,7 +803,7 @@ const ProfileEditorModal = ({ profile, testTypes, onSave, onClose }) => {
                       })}
                       className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white"
                     />
-                    <p className="text-xs text-gray-500 mt-1">Nếu đạt >= điểm này sẽ hiện "ĐẠT", ngược lại hiện "CHƯA ĐẠT"</p>
+                    <p className="text-xs text-gray-500 mt-1">Nếu đạt {'>='} điểm này sẽ hiện "ĐẠT", ngược lại hiện "CHƯA ĐẠT"</p>
                   </div>
                   <div className="flex flex-wrap gap-4 mt-4">
                     <label className="flex items-center gap-2 text-gray-300">
