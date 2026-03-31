@@ -92,9 +92,10 @@ const Layout = () => {
                 transition={{ duration: 0.3 }}
                 className="h-12 w-auto"
               />
-              <div className="flex flex-col">
+              <div className="flex flex-col text-center sm:text-left">
                 <span className="text-xl font-bold font-display gradient-text leading-tight">
-                  Nghiền Học
+                  <span className="block sm:inline">Nghiền</span>
+                  <span className="block sm:inline"> Học</span>
                 </span>
                 <span className="text-xs text-slate-400 hidden sm:block">Online Quiz Learning</span>
               </div>
