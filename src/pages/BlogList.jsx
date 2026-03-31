@@ -132,10 +132,10 @@ const BlogList = () => {
   return (
     <>
       <Helmet>
-        <title>Blog - IQ & EQ Test | Kiến thức về trí tuệ và cảm xúc</title>
-        <meta name="description" content="Khám phá các bài viết về IQ, EQ, tâm lý học và phát triển bản thân. Cập nhật kiến thức mới nhất về trí tuệ và cảm xúc." />
-        <meta property="og:title" content="Blog - IQ & EQ Test" />
-        <meta property="og:description" content="Khám phá các bài viết về IQ, EQ, tâm lý học và phát triển bản thân." />
+        <title>Blog - Nghiền Học | Kiến thức học tập và phát triển bản thân</title>
+        <meta name="description" content="Khám phá các bài viết về học tập, trắc nghiệm, IQ, EQ và phát triển bản thân. Cập nhật kiến thức mới nhất cho học sinh, sinh viên." />
+        <meta property="og:title" content="Blog - Nghiền Học" />
+        <meta property="og:description" content="Khám phá các bài viết về học tập, trắc nghiệm và phát triển bản thân." />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
 

@@ -66,24 +66,24 @@ const Home = () => {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm 
+              className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm
                          border border-white/20 text-sm text-slate-300 mb-8"
             >
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse" />
-              Hơn 10,000+ người đã tham gia
+              Nền tảng trắc nghiệm cho học sinh, sinh viên
             </motion.div>
 
             {/* Main heading */}
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold font-display mb-6">
-              <span className="text-white">Khám phá </span>
-              <span className="gradient-text">Trí Tuệ</span>
+              <span className="text-white">Test IQ & </span>
+              <span className="gradient-text">Test EQ</span>
               <br />
-              <span className="text-white">của bạn</span>
+              <span className="text-white">Online</span>
             </h1>
 
             <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-12">
-              Đánh giá chỉ số IQ và EQ với các bài test khoa học, 
-              chuyên nghiệp. Hiểu rõ bản thân để phát triển tốt hơn.
+              Hệ thống bài test trực tuyến, đánh giá năng lực từ tiểu học đến đại học.
+              Các bài trắc nghiệm đa dạng các môn học dành cho học sinh, sinh viên mọi lứa tuổi.
             </p>
 
             {/* CTA Buttons */}
@@ -194,10 +194,10 @@ const Home = () => {
           >
             <h2 className="text-4xl font-bold font-display mb-4">
               <span className="text-white">Tại sao chọn </span>
-              <span className="gradient-text">chúng tôi?</span>
+              <span className="gradient-text">Nghiền Học?</span>
             </h2>
             <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              Nền tảng đánh giá IQ/EQ hàng đầu với công nghệ hiện đại
+              Nền tảng đánh giá năng lực và trắc nghiệm trực tuyến hàng đầu
             </p>
           </motion.div>
 
